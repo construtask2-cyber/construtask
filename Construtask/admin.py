@@ -398,10 +398,11 @@ class MedicaoAdmin(admin.ModelAdmin):
 
     list_display = (
         "numero_da_medicao",
-        "centro_custo_codigo",
         "contrato",
+        "centro_custo_codigo",
         "cnpj",
         "fornecedor",
+        "descricao",
         "valor_medido",
     )
 
