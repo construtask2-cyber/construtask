@@ -1,1 +1,1 @@
-web: gunicorn construtask.wsgi
+web: gunicorn setup.wsgi:application --bind 0.0.0.0:$PORT
